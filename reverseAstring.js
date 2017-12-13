@@ -13,7 +13,7 @@ function reverseString(str){
 }
 
 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 var myVariable = "Hello"
 function reverseString(str) {
     return str.split("").reverse().join("");

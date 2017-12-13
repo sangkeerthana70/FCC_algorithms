@@ -1,3 +1,4 @@
+var result;
 function factorialize(inNum) {
    
   var i;
@@ -5,8 +6,9 @@ function factorialize(inNum) {
  for (i=1; i <= inNum; i++){
      console.log("now i is",i);
  result = result * i;
+ console.log(result);
 }
 return result;
 }
-
+    
 factorialize(5);
