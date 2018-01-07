@@ -18,7 +18,7 @@ function palindrome(str) {
 	console.log(tempStr2);
 	var tempStr3 = tempStr2.reverse('');
 	console.log(tempStr2);
-	var tempStr4 = tempStr3.join('');
+	var tempStr4 = tempStr3.join('');//join method joins the elements from an array into a string.
 	console.log(tempStr4);
 	console.log(str);
 	if (tempStr === tempStr4) { // compare tempStr(after removing  alphanumeric) with tempStr4 (after split,reverse and join.
